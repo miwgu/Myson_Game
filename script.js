@@ -125,6 +125,8 @@ const findLetter =(userAnswer)=>{
        document.getElementById("switchImg").src =`images/${imgNumber}.png`
        if(imgNumber==2){
         document.getElementById("gameOver").style.display="block";
+        decideButtonElement.disabled =true;//Buttoon does not work
+
        }
        
 
