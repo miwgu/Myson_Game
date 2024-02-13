@@ -1,0 +1,70 @@
+.a{
+  width: auto;
+  margin: auto;
+ position: relative;
+}
+main{
+   /* float: right;*/
+    /*width: 70%;*/
+    padding: 5px 0px;
+    background-color: #b3d874;
+    
+    
+  }
+
+aside{
+   /* float: left;*/
+   /* width: 30%;*/
+    margin: 0 ;
+    padding: 5px;
+    
+    background-color: #ff838b;
+  }
+
+#box1{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+#box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.sub{
+  /*float: left;*/
+  /*width: 30%;*/
+  height: auto;
+  margin: 0 ;
+  padding: 10px;
+  
+  background-color: rgb(180, 208, 221);
+}
+
+ .footer{
+  width: auto;
+  height: 480px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #5befff;
+  bottom: 0;
+} 
+
+
+#answer{
+  text-align: center;
+}
+
+/*
+#question span.underline{
+  text-decoration: underline;
+  color: transparent;
+}
+*/
+
+.underline {
+  border-bottom: double medium black; /* Add an underline effect */
+  color: transparent;
+}

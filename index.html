@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+  <div class="a">
+    <header>
+        <nav class="bg-body-secondary p-2" style="border-bottom: 5px solid #0dc1ce; ">
+            <div class="container text-center" >
+              <a class="navbar-brand " href="#"><h1 >Oskars spel</h1></a>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div >
+
+            <div class="row">
+              <div class="col-6">
+                <aside >
+                  <div class="container text-center">
+          
+                     <!--  <div >
+                        <div  id="box1">
+                        <p id="question1"></p>
+                        </div>
+                      </div> -->
+          
+                      <div >
+                        <div  id="box1">
+                        <p id="question"></p>
+                        </div>
+                      </div>
+                    </div>
+                 
+              </aside>
+          
+              <div class="sub container text-center">
+          
+              <form class="row g-3">
+                <div class="mb-3">
+                  <label for="answer" class="form-control-plaintext">Gissa en bokstav!</label>
+                  <input type="text" class="form-control" id="answer" placeholder="Skriv en bokstav " maxlength="1">
+                </div>
+                <div class="mb-3">
+                  <button id="decide" type="button" class="btn btn-primary mb-3">BESLUT</button>
+                </div>
+              </form>
+              </div>
+              </div>
+          
+              
+              <div class="col-6"><img id="switchImg" src="images/0.png" class="rounded mx-auto d-block" alt="..." style="height: 350px;  "></div>
+            </div>
+            </div>
+          
+
+    </main>
+  </div>
+
+<!--     <aside >
+        <div class="container text-center">
+
+            <div >
+              <div  id="box1">
+              <p id="question1"></p>
+              </div>
+            </div>
+
+            <div >
+              <div  id="box1">
+              <p id="question"></p>
+              </div>
+            </div>
+          </div>
+       
+    </aside>
+
+    <div class="sub container text-center">
+
+    <form class="row g-3">
+      <div class="mb-3">
+        <label for="answer" class="form-control-plaintext">Gissa en bokstav!</label>
+        <input type="text" class="form-control" id="answer" placeholder="Skriv en bokstav " maxlength="1">
+      </div>
+      <div class="mb-3">
+        <button id="decide" type="button" class="btn btn-primary mb-3">BESLUT</button>
+      </div>
+    </form>
+    </div> -->
+  </div>
+
+    <footer class="footer  text-center" >
+      <div>
+        <div id="correct">
+          <h1 id="judge">Grattis!</h1>
+        <div class="col align-self-center m-3" id="nextORResult">
+          <input id ="next" type="button" value="nästa" onclick="nextQuiz()" />
+        </div>
+        </div>
+
+        <div id="finish" style="display: none;">
+          <h1 >Slut!</h1>
+        </div>
+
+        <div id="gameOver" style="display: none;">
+          <h1 >💀Game Over💀</h1>
+        </div>
+      </div>
+
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
