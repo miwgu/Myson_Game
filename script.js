@@ -126,6 +126,8 @@ const findLetter =(userAnswer)=>{
        if(imgNumber==2){
         document.getElementById("gameOver").style.display="block";
         decideButtonElement.disabled =true;//Buttoon does not work
+        var gameOverAudio = new Audio('sounds/game-over-sound.mp3');
+        gameOverAudio.play();
 
        }
        
